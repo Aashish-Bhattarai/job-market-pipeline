@@ -1,0 +1,178 @@
+# Pipeline v2 policy and model routing. Versioned in git; every application
+# records the commit it ran under.
+
+# false: the batch fills forms and stops before submit; `approve.py` marks a
+# job approved and the next batch submits it. true: submit as soon as every
+# gate passes (see OPERATIONS.md "Submit gate").
+# Set to false for an approve-first workflow; true for autonomous submission
+# (important/questionable items still stay queued for operator review).
+auto_submit: false
+
+# If set (regex, case-insensitive), ONLY jobs whose title matches are
+# processed through fit -> tailor -> apply. Empty: apply across the whole
+# AI/ML/DS family filter.py admits.
+role_title_filter: ""
+
+# FIT: the most years a REQUIRED "N+ years" minimum may ask for, relative to
+# years_experience stated in answers.yaml/facts.yaml. Roles asking for more
+# still fail; number-less unevidenced claims are still blocked separately.
+fit:
+  max_required_years: 3
+
+# true: questions the classifier marks fact_answerable (e.g. "why this role")
+# are drafted by the writer model from facts.yaml + the posting, and used
+# only if the auditor model passes them. Personal questions (opinions,
+# nationality, preferences) always queue for the operator.
+generate_fact_grounded_answers: true
+
+apply_per_batch: 60   # tailor + apply cap per batch
+fit_per_batch: 400    # jobs sent to requirement extraction (small model) per batch
+fit_workers: 6        # parallel requirement extractions (small model: cheap, ~40s each)
+tailor_workers: 4     # parallel tailoring jobs (writer + auditor); Word PDF conversion is locked
+
+# Geography beyond London / Sussex / UK-remote. Applies ONLY to AI/ML-core titles
+# (machine learning, ML/AI engineer, data scientist, applied scientist, MLOps,
+# LLM/GenAI, NLP, computer vision, deep learning) -- generic software /
+# data-engineer / forward-deployed titles stay London/Sussex/UK-remote. A place
+# counts only when the posting's location text also carries a UK marker
+# (uk / united kingdom / england / great britain), so "Cambridge, MA",
+# "Reading, PA" or "Norwich, VT" are not matched. Whole-word, case-insensitive.
+# Edit freely: add a city (Bristol, Birmingham, Manchester ...) to widen,
+# delete one to narrow. Nothing else needs changing.
+# How old a posting may be. Aggregator listings (Himalayas, Reed, HN...) can be
+# dead, so they stay at 30 days. A role read straight from an employer's own ATS
+# board (Greenhouse, Lever, Ashby, Workable, Recruitee...) is open right now --
+# the board lists nothing else -- so it may be older. Set both to 30 to restore
+# the old single limit.
+posting_age:
+  max_days: 30
+  max_days_employer_board: 60
+
+geography:
+  # "Worldwide (Remote)" / "Anywhere" AI/ML-core roles can be done from the UK.
+  # THE LADDER: London/Sussex first, then remote (UK, worldwide, EMEA/Europe,
+  # bare "Remote"), then anywhere in the UK -- all for AI/ML-core titles. Batch
+  # order honours the ladder (run/batch.py). Abroad is NOT enabled: it needs a
+  # visa sponsor and a move.
+  worldwide_remote: true
+  emea_remote: true
+  remote_unspecified: true
+  anywhere_in_uk: true
+  uk_unspecified: true     # a bare "United Kingdom" / "UK" / "England" location (no city) counts as nearby
+  # Sample UK geography list -- edit to your own base + commutable region.
+  nearby_places:
+    # East of England
+    - chelmsford
+    - ipswich
+    - norwich
+    - cambridge
+    - peterborough
+    - southend
+    - basildon
+    - harlow
+    - stevenage
+    - st albans
+    - hatfield
+    - welwyn
+    - hemel hempstead
+    - watford
+    - luton
+    - bedford
+    - milton keynes
+    - essex
+    - suffolk
+    - hertfordshire
+    - cambridgeshire
+    - bedfordshire
+    - buckinghamshire
+    # South East (London / Sussex ring)
+    - reading
+    - oxford
+    - slough
+    - windsor
+    - bracknell
+    - maidenhead
+    - basingstoke
+    - winchester
+    - southampton
+    - portsmouth
+    - farnborough
+    - aldershot
+    - guildford
+    - woking
+    - canterbury
+    - maidstone
+    - ashford
+    - dartford
+    - rochester
+    - tunbridge wells
+    - sevenoaks
+    - folkestone
+    - didcot
+    - abingdon
+    - harwell
+    - bicester
+    - high wycombe
+    - aylesbury
+    - newbury
+    - croydon
+    - kingston upon thames
+    - uxbridge
+    - bromley
+    - kent
+    - surrey
+    - berkshire
+    - hampshire
+    - oxfordshire
+    - sussex
+    - west sussex
+    - east sussex
+
+# Submission controls (checked in code by batch.py before ANY submit mode):
+#   enabled:       master switch — false means nothing is ever submitted.
+#   enabled_from:  no submit mode before this date.
+#   daily_cap:     max real submissions per calendar day, or null for no
+#                  numeric cap. Config-driven, not hardcoded — change the
+#                  number here whenever you want, no code involved.
+# Dry runs never count and never submit.
+submissions:
+  enabled: true
+  enabled_from: "2026-01-01"
+  daily_cap: 50
+
+# Discovery source API keys (free registrations). Missing keys simply skip
+# that source with a printed reason — the batch never crashes on them.
+# Set via an env var named <SOURCE>_API_KEY (e.g. REED_API_KEY) to avoid ever
+# writing a real key into this tracked file -- see SECURITY.md.
+sources:
+  reed:   {api_key: ""}               # https://www.reed.co.uk/developers
+
+# Model ranks: a stage fails if the model that ACTUALLY answered (after any
+# provider fallback) ranks below min_rank. Unknown models rank 0.
+# Tiers: long-running stages fall back to a mid-tier model; the intelligence
+# stage (auditor) runs the strongest available model.
+model_ranks:
+  zai/glm-5.3-flash: 1
+  anthropic/claude-sonnet-5: 2
+  google-antigravity/gemini-3.1-pro: 2
+  anthropic/claude-opus-5-5: 3
+  zai/glm-5.3: 3
+
+stages:
+  requirements:      {model: zai/glm-5.3-flash, thinking: low, min_rank: 1,
+                      fallbacks: [anthropic/claude-sonnet-5, google-antigravity/gemini-3.1-pro]}
+  classify_question: {model: zai/glm-5.3-flash, thinking: low, min_rank: 1,
+                      fallbacks: [anthropic/claude-sonnet-5, google-antigravity/gemini-3.1-pro]}
+  map_question:      {model: zai/glm-5.3-flash, thinking: low, min_rank: 1,
+                      fallbacks: [anthropic/claude-sonnet-5, google-antigravity/gemini-3.1-pro]}
+  base_writer:       {model: zai/glm-5.3-flash, thinking: medium, min_rank: 1,
+                      fallbacks: [anthropic/claude-sonnet-5, google-antigravity/gemini-3.1-pro]}
+  writer:            {model: anthropic/claude-sonnet-5, thinking: medium, min_rank: 2,
+                      fallbacks: [google-antigravity/gemini-3.1-pro]}
+  essay:             {model: anthropic/claude-sonnet-5, thinking: medium, min_rank: 2,
+                      fallbacks: [google-antigravity/gemini-3.1-pro]}
+  # The cheapest capable model writes the human-voiced cover-letter draft; no
+  # fallback -- the independent auditor below still checks every sentence.
+  cover_human:       {model: zai/glm-5.3-flash, thinking: medium, min_rank: 1, fallbacks: []}
+  auditor:           {model: anthropic/claude-opus-5-5, thinking: high, min_rank: 3,
+                      fallbacks: [zai/glm-5.3]}

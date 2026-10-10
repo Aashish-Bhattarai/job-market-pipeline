@@ -1,0 +1,120 @@
+# Example fact bank (CONTRACTS.md #1) for a fictional "Demo Candidate".
+# Every CV line and cover-letter sentence must be defensible solely from this
+# file -- copy it to facts.yaml (gitignored) next to this one and replace
+# every entry with your own real, evidenced facts.
+
+contact:
+  name: "Demo Candidate"
+  email: "demo.candidate@example.com"
+  phone: "+44 7700 900123"
+  linkedin: "linkedin.com/in/demo-candidate"
+  github: "github.com/demo-candidate"
+
+education:
+  - id: wessex-msc
+    degree: "MSc Data Science"
+    institution: "University of Wessex"
+    location: "Wessex, UK"
+    dates: "Completed December 2025"
+    details:
+      - "Dissertation on document intelligence using large language models."
+  - id: northfield-bsc
+    degree: "BSc (Hons) Computing"
+    institution: "Northfield University"
+    location: "Northfield, UK"
+    dates: "2019 – 2023"
+    details:
+      - "Final year project on predictive analytics for retail sales."
+
+certifications:
+  - id: cert-aws
+    name: "AWS Certified Cloud Practitioner"
+    year: 2025
+  - id: cert-az900
+    name: "Microsoft Certified: Azure Fundamentals"
+    year: 2024
+  - id: cert-pcap
+    name: "PCAP: Certified Associate in Python Programming"
+    year: 2023
+  - id: cert-pbi
+    name: "Microsoft Certified: Power BI Data Analyst Associate"
+    year: 2025
+
+skills:
+  Languages: ["Python", "SQL", "JavaScript", "TypeScript"]
+  "Machine Learning": ["scikit-learn", "gradient boosting", "regression", "pandas", "NumPy", "PyTorch"]
+  "LLM and AI": ["LLM prompting", "RAG", "RAG pipelines", "document intelligence", "OCR", "LoRA fine-tuning", "Anthropic"]
+  Backend: ["FastAPI", "Flask", "Docker", "REST APIs", "PostgreSQL"]
+  Frontend: ["React", "HTML/CSS"]
+  Infrastructure: ["GitHub Actions", "Linux", "Power BI", "Kubernetes"]
+
+experience:
+  - id: exampletech
+    org: "ExampleTech Ltd"
+    role: "Junior ML Engineer"
+    location: "Remote, UK"
+    dates: "June 2026 – Present"
+    employment: part-time
+    facts:
+      - id: exampletech.doc-intel
+        text: "Developed Python-based AI/ML applications for document intelligence, including an OCR and LLM extraction pipeline."
+        tags: [python, ai, ml, llm, ocr]
+        source: cv
+      - id: exampletech.docker
+        text: "Used Docker to containerize services for deployment on a small internal cluster."
+        tags: [docker, deployment]
+        source: cv
+  - id: sidecorp
+    org: "Sidecorp Labs"
+    role: "Software Developer (Contract)"
+    location: "Remote, UK"
+    dates: "March 2026 – July 2026"
+    employment: contract
+    facts:
+      - id: sidecorp.api
+        text: "Built a FastAPI backend serving model predictions to an internal dashboard."
+        tags: [python, fastapi, backend]
+        source: cv
+      - id: sidecorp.gbm
+        text: "Built a gradient boosting regression model achieving an RMSE of 47.6 on a held-out test split."
+        tags: [python, machine_learning, gradient boosting, regression]
+        source: cv
+  - id: datawave
+    org: "Datawave Analytics"
+    role: "Data Analyst Intern"
+    location: "Remote, UK"
+    dates: "February 2023 – May 2023"
+    employment: contract
+    facts:
+      - id: datawave.sql
+        text: "Wrote SQL queries to build weekly sales reports for three regional teams."
+        tags: [sql, reporting]
+        source: cv
+      - id: datawave.pbi
+        text: "Built Power BI dashboards tracking campaign performance for the marketing team."
+        tags: [power_bi, dashboards]
+        source: cv
+
+projects:
+  - id: roadmap-tool
+    org: null
+    role: "Personal Project"
+    location: "Riverton, UK"
+    dates: "2025"
+    employment: null
+    facts:
+      - id: roadmap-tool.summary
+        text: "Built a document-summarisation tool using an open-source LLM and a Streamlit front end."
+        tags: [python, llm, streamlit]
+        source: cv
+  - id: price-tracker
+    org: null
+    role: "Personal Project"
+    location: "Riverton, UK"
+    dates: "2026"
+    employment: null
+    facts:
+      - id: price-tracker.summary
+        text: "Built a price-tracking scraper and React dashboard deployed with Docker."
+        tags: [python, react, docker]
+        source: cv

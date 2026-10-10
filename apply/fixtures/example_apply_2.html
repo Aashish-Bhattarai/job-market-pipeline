@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head><title>Apply to Backend Software Engineer at Example Corp</title></head>
+<body>
+<div class="posting-headline"><h2>Backend Software Engineer</h2></div>
+<form action="/example-corp/00000000-0000-0000-0000-000000000000/apply" method="post">
+  <li class="application-question">
+    <label class="application-label">Full name<span class="required">*</span></label>
+    <input type="text" name="name" required>
+  </li>
+  <li class="application-question">
+    <label class="application-label">Email<span class="required">*</span></label>
+    <input type="email" name="email" required>
+  </li>
+  <li class="application-question">
+    <label class="application-label">Phone</label>
+    <input type="tel" name="phone">
+  </li>
+  <li class="application-question">
+    <label class="application-label">Resume/CV<span class="required">*</span></label>
+    <input type="file" name="resume" required>
+  </li>
+  <li class="application-question">
+    <label class="application-label">Cover Letter</label>
+    <input type="file" name="cover_letter">
+  </li>
+  <li class="application-question">
+    <label class="application-label">LinkedIn Profile</label>
+    <input type="text" name="urls[LinkedIn]">
+  </li>
+  <li class="application-question">
+    <label class="application-label">GitHub</label>
+    <input type="text" name="urls[GitHub]">
+  </li>
+  <li class="application-question">
+    <label class="application-label">Current location</label>
+    <input type="text" name="location">
+  </li>
+  <li class="application-question">
+    <label class="application-label">Earliest start date</label>
+    <input type="text" name="custom_start_date">
+  </li>
+  <li class="application-question">
+    <label class="application-label">Expected salary</label>
+    <input type="text" name="custom_salary">
+  </li>
+  <li class="application-question">
+    <label class="application-label">How did you hear about this role?</label>
+    <select name="custom_source">
+      <option value="">Select...</option>
+      <option value="job_board">Job board</option>
+      <option value="referral">Referral</option>
+      <option value="company_website">Company website</option>
+      <option value="other">Other</option>
+    </select>
+  </li>
+  <fieldset class="application-question">
+    <legend class="application-label">Which of these languages can you work in?</legend>
+    <label><input type="checkbox" name="custom_languages[]" value="English">English</label>
+    <label><input type="checkbox" name="custom_languages[]" value="French">French</label>
+    <label><input type="checkbox" name="custom_languages[]" value="German">German</label>
+    <label><input type="checkbox" name="custom_languages[]" value="Spanish">Spanish</label>
+  </fieldset>
+  <fieldset class="application-question required">
+    <legend class="application-label">Are you legally authorized to work in this country?<span class="required">*</span></legend>
+    <label><input type="radio" name="custom_work_auth" value="Yes" required>Yes</label>
+    <label><input type="radio" name="custom_work_auth" value="No" required>No</label>
+  </fieldset>
+  <li class="application-question required">
+    <label class="application-label">Why do you want to work here?<span class="required">*</span></label>
+    <textarea name="custom_why" required></textarea>
+  </li>
+  <button type="submit">Submit Application</button>
+</form>
+</body>
+</html>

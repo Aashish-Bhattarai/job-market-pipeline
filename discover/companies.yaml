@@ -1,0 +1,1493 @@
+- name: Anyscale
+  ats: ashby
+  slug: anyscale
+  careers_url: https://jobs.ashbyhq.com/anyscale
+  region: remote
+- name: Baseten
+  ats: ashby
+  slug: baseten
+  careers_url: https://jobs.ashbyhq.com/baseten
+  region: remote
+- name: Cohere
+  ats: ashby
+  slug: cohere
+  careers_url: https://jobs.ashbyhq.com/cohere
+  region: remote
+- name: Cursor
+  ats: ashby
+  slug: cursor
+  careers_url: https://jobs.ashbyhq.com/cursor
+  region: remote
+- name: Deel
+  ats: ashby
+  slug: deel
+  careers_url: https://jobs.ashbyhq.com/deel
+  region: remote
+- name: ElevenLabs
+  ats: ashby
+  slug: elevenlabs
+  careers_url: https://jobs.ashbyhq.com/elevenlabs
+  region: remote
+- name: Elicit
+  ats: ashby
+  slug: elicit
+  careers_url: https://jobs.ashbyhq.com/elicit
+  region: remote
+- name: Faculty AI
+  ats: ashby
+  slug: faculty
+  careers_url: https://jobs.ashbyhq.com/faculty
+  region: remote
+- name: Freetrade
+  ats: ashby
+  slug: freetrade
+  careers_url: https://jobs.ashbyhq.com/freetrade
+  region: london
+- name: Linear
+  ats: ashby
+  slug: linear
+  careers_url: https://jobs.ashbyhq.com/linear
+  region: remote
+- name: Perplexity AI
+  ats: ashby
+  slug: perplexity
+  careers_url: https://jobs.ashbyhq.com/perplexity
+  region: london
+- name: Ramp
+  ats: ashby
+  slug: ramp
+  careers_url: https://jobs.ashbyhq.com/ramp
+  region: remote
+- name: Runway
+  ats: ashby
+  slug: runway
+  careers_url: https://jobs.ashbyhq.com/runway
+  region: remote
+- name: Sierra
+  ats: ashby
+  slug: sierra
+  careers_url: https://jobs.ashbyhq.com/sierra
+  region: remote
+- name: Synthesia
+  ats: ashby
+  slug: synthesia
+  careers_url: https://jobs.ashbyhq.com/synthesia
+  region: remote
+- name: Adyen
+  ats: greenhouse
+  slug: adyen
+  careers_url: https://boards.greenhouse.io/adyen
+  region: london
+- name: Anthropic
+  ats: greenhouse
+  slug: anthropic
+  careers_url: https://boards.greenhouse.io/anthropic
+  region: london
+- name: BCG
+  ats: greenhouse
+  slug: bcg
+  careers_url: https://boards.greenhouse.io/bcg
+  region: london
+- name: Braze
+  ats: greenhouse
+  slug: braze
+  careers_url: https://boards.greenhouse.io/braze
+  region: remote
+- name: Canonical
+  ats: greenhouse
+  slug: canonical
+  careers_url: https://boards.greenhouse.io/canonical
+  region: remote
+- name: Cleo
+  ats: greenhouse
+  slug: cleo
+  careers_url: https://boards.greenhouse.io/cleo
+  region: london
+- name: Cloudflare
+  ats: greenhouse
+  slug: cloudflare
+  careers_url: https://boards.greenhouse.io/cloudflare
+  region: remote
+- name: Contentful
+  ats: greenhouse
+  slug: contentful
+  careers_url: https://boards.greenhouse.io/contentful
+  region: remote
+- name: Customer.io
+  ats: greenhouse
+  slug: customerio
+  careers_url: https://boards.greenhouse.io/customerio
+  region: remote
+- name: Databricks
+  ats: greenhouse
+  slug: databricks
+  careers_url: https://boards.greenhouse.io/databricks
+  region: remote
+- name: Datadog
+  ats: greenhouse
+  slug: datadog
+  careers_url: https://boards.greenhouse.io/datadog
+  region: remote
+- name: Deliveroo
+  ats: greenhouse
+  slug: deliveroo
+  careers_url: https://boards.greenhouse.io/deliveroo
+  region: london
+- name: Discord
+  ats: greenhouse
+  slug: discord
+  careers_url: https://boards.greenhouse.io/discord
+  region: remote
+- name: Dojo
+  ats: greenhouse
+  slug: dojo
+  careers_url: https://boards.greenhouse.io/dojo
+  region: london
+- name: Elastic
+  ats: greenhouse
+  slug: elastic
+  careers_url: https://boards.greenhouse.io/elastic
+  region: remote
+- name: Epic Games
+  ats: greenhouse
+  slug: epicgames
+  careers_url: https://boards.greenhouse.io/epicgames
+  region: remote
+- name: Fastly
+  ats: greenhouse
+  slug: fastly
+  careers_url: https://boards.greenhouse.io/fastly
+  region: remote
+- name: Figma
+  ats: greenhouse
+  slug: figma
+  careers_url: https://boards.greenhouse.io/figma
+  region: remote
+- name: Fivetran
+  ats: greenhouse
+  slug: fivetran
+  careers_url: https://boards.greenhouse.io/fivetran
+  region: remote
+- name: GetYourGuide
+  ats: greenhouse
+  slug: getyourguide
+  careers_url: https://boards.greenhouse.io/getyourguide
+  region: london
+- name: GitLab
+  ats: greenhouse
+  slug: gitlab
+  careers_url: https://boards.greenhouse.io/gitlab
+  region: remote
+- name: GoCardless
+  ats: greenhouse
+  slug: gocardless
+  careers_url: https://boards.greenhouse.io/gocardless
+  region: london
+- name: Graphcore
+  ats: greenhouse
+  slug: graphcore
+  careers_url: https://boards.greenhouse.io/graphcore
+  region: remote
+- name: Intercom
+  ats: greenhouse
+  slug: intercom
+  careers_url: https://boards.greenhouse.io/intercom
+  region: london
+- name: Iterable
+  ats: greenhouse
+  slug: iterable
+  careers_url: https://boards.greenhouse.io/iterable
+  region: remote
+- name: Klaviyo
+  ats: greenhouse
+  slug: klaviyo
+  careers_url: https://boards.greenhouse.io/klaviyo
+  region: remote
+- name: Mediatonic
+  ats: greenhouse
+  slug: mediatonic
+  careers_url: https://boards.greenhouse.io/mediatonic
+  region: london
+- name: Mind Foundry
+  ats: greenhouse
+  slug: mindfoundry
+  careers_url: https://boards.greenhouse.io/mindfoundry
+  region: london
+- name: MongoDB
+  ats: greenhouse
+  slug: mongodb
+  careers_url: https://boards.greenhouse.io/mongodb
+  region: remote
+- name: Monzo
+  ats: greenhouse
+  slug: monzo
+  careers_url: https://boards.greenhouse.io/monzo
+  region: london
+- name: Netlify
+  ats: greenhouse
+  slug: netlify
+  careers_url: https://boards.greenhouse.io/netlify
+  region: remote
+- name: Omada Health
+  ats: greenhouse
+  slug: omadahealth
+  careers_url: https://boards.greenhouse.io/omadahealth
+  region: remote
+- name: PlanetScale
+  ats: greenhouse
+  slug: planetscale
+  careers_url: https://boards.greenhouse.io/planetscale
+  region: remote
+- name: PolyAI
+  ats: greenhouse
+  slug: polyai
+  careers_url: https://boards.greenhouse.io/polyai
+  region: london
+- name: Roblox
+  ats: greenhouse
+  slug: roblox
+  careers_url: https://boards.greenhouse.io/roblox
+  region: remote
+- name: Rockstar Games
+  ats: greenhouse
+  slug: rockstargames
+  careers_url: https://boards.greenhouse.io/rockstargames
+  region: london
+- name: Stability AI
+  ats: greenhouse
+  slug: stabilityai
+  careers_url: https://boards.greenhouse.io/stabilityai
+  region: london
+- name: Stripe
+  ats: greenhouse
+  slug: stripe
+  careers_url: https://boards.greenhouse.io/stripe
+  region: london
+- name: SumUp
+  ats: greenhouse
+  slug: sumup
+  careers_url: https://boards.greenhouse.io/sumup
+  region: london
+- name: Tide
+  ats: greenhouse
+  slug: tide
+  careers_url: https://boards.greenhouse.io/tide
+  region: london
+- name: TrueLayer
+  ats: greenhouse
+  slug: truelayer
+  careers_url: https://boards.greenhouse.io/truelayer
+  region: london
+- name: Twilio
+  ats: greenhouse
+  slug: twilio
+  careers_url: https://boards.greenhouse.io/twilio
+  region: remote
+- name: Vercel
+  ats: greenhouse
+  slug: vercel
+  careers_url: https://boards.greenhouse.io/vercel
+  region: remote
+- name: Vonage
+  ats: greenhouse
+  slug: vonage
+  careers_url: https://boards.greenhouse.io/vonage
+  region: remote
+- name: Wayve
+  ats: greenhouse
+  slug: wayve
+  careers_url: https://boards.greenhouse.io/wayve
+  region: london
+- name: Webflow
+  ats: greenhouse
+  slug: webflow
+  careers_url: https://boards.greenhouse.io/webflow
+  region: remote
+- name: Wise
+  ats: greenhouse
+  slug: wise
+  careers_url: https://boards.greenhouse.io/wise
+  region: london
+- name: Palantir
+  ats: lever
+  slug: palantir
+  careers_url: https://jobs.lever.co/palantir
+  region: london
+- name: American Express
+  ats: smartrecruiters
+  slug: AmericanExpress
+  careers_url: https://jobs.smartrecruiters.com/AmericanExpress
+  region: london
+- name: Citrix
+  ats: smartrecruiters
+  slug: Citrix
+  careers_url: https://jobs.smartrecruiters.com/Citrix
+  region: remote
+- name: Dynatrace
+  ats: smartrecruiters
+  slug: Dynatrace
+  careers_url: https://jobs.smartrecruiters.com/Dynatrace
+  region: remote
+- name: Ericsson
+  ats: smartrecruiters
+  slug: Ericsson
+  careers_url: https://jobs.smartrecruiters.com/Ericsson
+  region: london
+- name: Extreme Networks
+  ats: smartrecruiters
+  slug: ExtremeNetworks
+  careers_url: https://jobs.smartrecruiters.com/ExtremeNetworks
+  region: remote
+- name: Genpact
+  ats: smartrecruiters
+  slug: Genpact
+  careers_url: https://jobs.smartrecruiters.com/Genpact
+  region: remote
+- name: Hays
+  ats: smartrecruiters
+  slug: Hays
+  careers_url: https://jobs.smartrecruiters.com/Hays
+  region: sussex
+- name: Huawei
+  ats: smartrecruiters
+  slug: Huawei
+  careers_url: https://jobs.smartrecruiters.com/Huawei
+  region: london
+- name: Nvidia
+  ats: smartrecruiters
+  slug: NVIDIA
+  careers_url: https://jobs.smartrecruiters.com/NVIDIA
+  region: remote
+- name: Sage
+  ats: smartrecruiters
+  slug: Sage
+  careers_url: https://jobs.smartrecruiters.com/Sage
+  region: london
+- name: Welbilt
+  ats: smartrecruiters
+  slug: Welbilt
+  careers_url: https://jobs.smartrecruiters.com/Welbilt
+  region: remote
+- name: Wolters Kluwer
+  ats: smartrecruiters
+  slug: WoltersKluwer
+  careers_url: https://jobs.smartrecruiters.com/WoltersKluwer
+  region: london
+- name: AmerisourceBergen
+  ats: workable
+  slug: amerisourcebergen
+  careers_url: https://apply.workable.com/amerisourcebergen
+  region: remote
+- name: BioCatch
+  ats: workable
+  slug: biocatch
+  careers_url: https://apply.workable.com/biocatch
+  region: remote
+- name: Curve
+  ats: workable
+  slug: curve
+  careers_url: https://apply.workable.com/curve
+  region: remote
+- name: FiscalNote
+  ats: workable
+  slug: fiscalnote
+  careers_url: https://apply.workable.com/fiscalnote
+  region: remote
+- name: GlobalData
+  ats: workable
+  slug: globaldata
+  careers_url: https://apply.workable.com/globaldata
+  region: london
+- name: Gusto
+  ats: workable
+  slug: gusto
+  careers_url: https://apply.workable.com/gusto
+  region: remote
+- name: Headspace
+  ats: workable
+  slug: headspace
+  careers_url: https://apply.workable.com/headspace
+  region: remote
+- name: Kalo
+  ats: workable
+  slug: kalo
+  careers_url: https://apply.workable.com/kalo
+  region: remote
+- name: Letgo
+  ats: workable
+  slug: letgo
+  careers_url: https://apply.workable.com/letgo
+  region: remote
+- name: Nesta
+  ats: workable
+  slug: nesta
+  careers_url: https://apply.workable.com/nesta
+  region: london
+- name: Papercup
+  ats: workable
+  slug: papercup
+  careers_url: https://apply.workable.com/papercup
+  region: london
+- name: Remote
+  ats: workable
+  slug: remote
+  careers_url: https://apply.workable.com/remote
+  region: remote
+- name: Thought Machine
+  ats: workable
+  slug: thoughtmachine
+  careers_url: https://apply.workable.com/thoughtmachine
+  region: london
+- name: Trussle
+  ats: workable
+  slug: trussle
+  careers_url: https://apply.workable.com/trussle
+  region: london
+- name: Zendesk
+  ats: workable
+  slug: zendesk
+  careers_url: https://apply.workable.com/zendesk
+  region: remote
+- name: Zopa
+  ats: workable
+  slug: zopa
+  careers_url: https://apply.workable.com/zopa
+  region: remote
+- name: iwoca
+  ats: ashby
+  slug: iwoca.co.uk
+  careers_url: https://jobs.ashbyhq.com/iwoca.co.uk
+  region: london
+- name: NewRocket
+  ats: greenhouse
+  slug: highmetric
+  careers_url: https://www.newrocket.com/careers
+  region: remote
+- name: Speechmatics
+  ats: greenhouse
+  slug: speechmatics
+  careers_url: https://boards.greenhouse.io/speechmatics
+  region: remote
+- name: ComplyAdvantage
+  ats: greenhouse
+  slug: complyadvantage
+  careers_url: https://boards.greenhouse.io/complyadvantage
+  region: london
+- name: Labelbox
+  ats: greenhouse
+  slug: labelbox
+  careers_url: https://boards.greenhouse.io/labelbox
+  region: remote
+- name: Snorkel AI
+  ats: greenhouse
+  slug: snorkelai
+  careers_url: https://boards.greenhouse.io/snorkelai
+  region: remote
+- name: Hightouch
+  ats: greenhouse
+  slug: hightouch
+  careers_url: https://boards.greenhouse.io/hightouch
+  region: remote
+- name: Amplitude
+  ats: greenhouse
+  slug: amplitude
+  careers_url: https://boards.greenhouse.io/amplitude
+  region: remote
+- name: Mixpanel
+  ats: greenhouse
+  slug: mixpanel
+  careers_url: https://boards.greenhouse.io/mixpanel
+  region: remote
+- name: Pendo
+  ats: greenhouse
+  slug: pendo
+  careers_url: https://boards.greenhouse.io/pendo
+  region: remote
+- name: Brandwatch
+  ats: greenhouse
+  slug: brandwatch
+  careers_url: https://boards.greenhouse.io/brandwatch
+  region: sussex
+- name: AlphaSense
+  ats: greenhouse
+  slug: alphasense
+  careers_url: https://boards.greenhouse.io/alphasense
+  region: remote
+- name: Netskope
+  ats: greenhouse
+  slug: netskope
+  careers_url: https://boards.greenhouse.io/netskope
+  region: remote
+- name: Corelight
+  ats: greenhouse
+  slug: corelight
+  careers_url: https://boards.greenhouse.io/corelight
+  region: remote
+- name: Recorded Future
+  ats: greenhouse
+  slug: recordedfuture
+  careers_url: https://boards.greenhouse.io/recordedfuture
+  region: remote
+- name: Fireblocks
+  ats: greenhouse
+  slug: fireblocks
+  careers_url: https://boards.greenhouse.io/fireblocks
+  region: remote
+- name: Blockchain.com
+  ats: greenhouse
+  slug: blockchain
+  careers_url: https://boards.greenhouse.io/blockchain
+  region: london
+- name: Elixirr
+  ats: greenhouse
+  slug: elixirr
+  careers_url: https://boards.greenhouse.io/elixirr
+  region: london
+- name: Asana
+  ats: greenhouse
+  slug: asana
+  careers_url: https://boards.greenhouse.io/asana
+  region: remote
+- name: Dataiku
+  ats: greenhouse
+  slug: dataiku
+  careers_url: https://boards.greenhouse.io/dataiku
+  region: remote
+- name: Vectara
+  ats: greenhouse
+  slug: vectara
+  careers_url: https://boards.greenhouse.io/vectara
+  region: remote
+- name: AssemblyAI
+  ats: greenhouse
+  slug: assemblyai
+  careers_url: https://boards.greenhouse.io/assemblyai
+  region: remote
+- name: Descript
+  ats: greenhouse
+  slug: descript
+  careers_url: https://boards.greenhouse.io/descript
+  region: remote
+- name: HeyGen
+  ats: greenhouse
+  slug: heygen
+  careers_url: https://boards.greenhouse.io/heygen
+  region: remote
+- name: ZoomInfo
+  ats: greenhouse
+  slug: zoominfo
+  careers_url: https://boards.greenhouse.io/zoominfo
+  region: remote
+- name: Cognism
+  ats: greenhouse
+  slug: cognism
+  careers_url: https://boards.greenhouse.io/cognism
+  region: london
+- name: Isomorphic Labs
+  ats: greenhouse
+  slug: isomorphiclabs
+  careers_url: https://boards.greenhouse.io/isomorphiclabs
+  region: london
+- name: Scale AI
+  ats: greenhouse
+  slug: scaleai
+  careers_url: https://boards.greenhouse.io/scaleai
+  region: remote
+- name: Wheely
+  ats: greenhouse
+  slug: wheely
+  careers_url: https://boards.greenhouse.io/wheely
+  region: london
+- name: Capco
+  ats: greenhouse
+  slug: capco
+  careers_url: https://boards.greenhouse.io/capco
+  region: london
+- name: Typeform
+  ats: greenhouse
+  slug: typeform
+  careers_url: https://boards.greenhouse.io/typeform
+  region: remote
+- name: Voxel51
+  ats: greenhouse
+  slug: voxel51
+  careers_url: https://boards.greenhouse.io/voxel51
+  region: remote
+- name: Udio
+  ats: greenhouse
+  slug: udio
+  careers_url: https://boards.greenhouse.io/udio
+  region: remote
+- name: Salesloft
+  ats: greenhouse
+  slug: salesloft
+  careers_url: https://boards.greenhouse.io/salesloft
+  region: remote
+- name: 6sense
+  ats: greenhouse
+  slug: 6sense
+  careers_url: https://boards.greenhouse.io/6sense
+  region: remote
+- name: Etched
+  ats: greenhouse
+  slug: etched
+  careers_url: https://boards.greenhouse.io/etched
+  region: remote
+- name: Primer AI
+  ats: greenhouse
+  slug: primerai
+  careers_url: https://boards.greenhouse.io/primerai
+  region: remote
+- name: LogRocket
+  ats: lever
+  slug: logrocket
+  careers_url: https://jobs.lever.co/logrocket
+  region: remote
+- name: Contentsquare
+  ats: lever
+  slug: contentsquare
+  careers_url: https://jobs.lever.co/contentsquare
+  region: remote
+- name: Farfetch
+  ats: lever
+  slug: farfetch
+  careers_url: https://jobs.lever.co/farfetch
+  region: london
+- name: Fresha
+  ats: lever
+  slug: fresha
+  careers_url: https://jobs.lever.co/fresha
+  region: london
+- name: Matillion
+  ats: lever
+  slug: matillion
+  careers_url: https://jobs.lever.co/matillion
+  region: remote
+- name: Deliverect
+  ats: lever
+  slug: deliverect
+  careers_url: https://jobs.lever.co/deliverect
+  region: remote
+- name: Aircall
+  ats: lever
+  slug: aircall
+  careers_url: https://jobs.lever.co/aircall
+  region: remote
+- name: Marshmallow
+  ats: ashby
+  slug: marshmallow
+  careers_url: https://jobs.ashbyhq.com/marshmallow
+  region: london
+- name: Zego
+  ats: ashby
+  slug: zego
+  careers_url: https://jobs.ashbyhq.com/zego
+  region: london
+- name: Quantexa
+  ats: ashby
+  slug: quantexa
+  careers_url: https://jobs.ashbyhq.com/quantexa
+  region: london
+- name: Signal AI
+  ats: ashby
+  slug: signal-ai
+  careers_url: https://jobs.ashbyhq.com/signal-ai
+  region: london
+- name: FullStory
+  ats: ashby
+  slug: fullstory
+  careers_url: https://jobs.ashbyhq.com/fullstory
+  region: remote
+- name: Semgrep
+  ats: ashby
+  slug: semgrep
+  careers_url: https://jobs.ashbyhq.com/semgrep
+  region: remote
+- name: Monte Carlo
+  ats: ashby
+  slug: montecarlodata
+  careers_url: https://jobs.ashbyhq.com/montecarlodata
+  region: remote
+- name: Deepnote
+  ats: ashby
+  slug: deepnote
+  careers_url: https://jobs.ashbyhq.com/deepnote
+  region: remote
+- name: OakNorth
+  ats: ashby
+  slug: oaknorth
+  careers_url: https://jobs.ashbyhq.com/oaknorth
+  region: london
+- name: Elliptic
+  ats: ashby
+  slug: elliptic
+  careers_url: https://jobs.ashbyhq.com/elliptic
+  region: london
+- name: Trading 212
+  ats: ashby
+  slug: trading212
+  careers_url: https://jobs.ashbyhq.com/trading212
+  region: london
+- name: Moneybox
+  ats: ashby
+  slug: moneybox
+  careers_url: https://jobs.ashbyhq.com/moneybox
+  region: london
+- name: Griffin
+  ats: ashby
+  slug: griffin
+  careers_url: https://jobs.ashbyhq.com/griffin
+  region: london
+- name: ClearBank
+  ats: ashby
+  slug: clearbank
+  careers_url: https://jobs.ashbyhq.com/clearbank
+  region: london
+- name: Zilch
+  ats: ashby
+  slug: zilch
+  careers_url: https://jobs.ashbyhq.com/zilch
+  region: london
+- name: Paddle
+  ats: ashby
+  slug: paddle
+  careers_url: https://jobs.ashbyhq.com/paddle
+  region: london
+- name: Sylvera
+  ats: ashby
+  slug: sylvera
+  careers_url: https://jobs.ashbyhq.com/sylvera
+  region: london
+- name: Watershed
+  ats: ashby
+  slug: watershed
+  careers_url: https://jobs.ashbyhq.com/watershed
+  region: remote
+- name: Attio
+  ats: ashby
+  slug: attio
+  careers_url: https://jobs.ashbyhq.com/attio
+  region: london
+- name: ClickUp
+  ats: ashby
+  slug: clickup
+  careers_url: https://jobs.ashbyhq.com/clickup
+  region: remote
+- name: Writer
+  ats: ashby
+  slug: writer
+  careers_url: https://jobs.ashbyhq.com/writer
+  region: remote
+- name: Hyperscience
+  ats: ashby
+  slug: hyperscience
+  careers_url: https://jobs.ashbyhq.com/hyperscience
+  region: remote
+- name: Cerebras
+  ats: ashby
+  slug: cerebras
+  careers_url: https://jobs.ashbyhq.com/cerebras
+  region: remote
+- name: Modal
+  ats: ashby
+  slug: modal
+  careers_url: https://jobs.ashbyhq.com/modal
+  region: remote
+- name: Pinecone
+  ats: ashby
+  slug: pinecone
+  careers_url: https://jobs.ashbyhq.com/pinecone
+  region: remote
+- name: LangChain
+  ats: ashby
+  slug: langchain
+  careers_url: https://jobs.ashbyhq.com/langchain
+  region: remote
+- name: LlamaIndex
+  ats: ashby
+  slug: llamaindex
+  careers_url: https://jobs.ashbyhq.com/llamaindex
+  region: remote
+- name: Deepgram
+  ats: ashby
+  slug: deepgram
+  careers_url: https://jobs.ashbyhq.com/deepgram
+  region: remote
+- name: Luma AI
+  ats: ashby
+  slug: lumaai
+  careers_url: https://jobs.ashbyhq.com/lumaai
+  region: remote
+- name: Midjourney
+  ats: ashby
+  slug: midjourney
+  careers_url: https://jobs.ashbyhq.com/midjourney
+  region: remote
+- name: Recraft
+  ats: ashby
+  slug: recraft
+  careers_url: https://jobs.ashbyhq.com/recraft
+  region: remote
+- name: Improbable
+  ats: ashby
+  slug: improbable
+  careers_url: https://jobs.ashbyhq.com/improbable
+  region: london
+- name: Immersive Labs
+  ats: ashby
+  slug: immersivelabs
+  careers_url: https://jobs.ashbyhq.com/immersivelabs
+  region: remote
+- name: Tractable
+  ats: ashby
+  slug: tractable
+  careers_url: https://jobs.ashbyhq.com/tractable
+  region: london
+- name: Thoughtworks
+  ats: ashby
+  slug: thoughtworks
+  careers_url: https://jobs.ashbyhq.com/thoughtworks
+  region: remote
+- name: 9fin
+  ats: ashby
+  slug: 9fin
+  careers_url: https://jobs.ashbyhq.com/9fin
+  region: london
+- name: Juro
+  ats: ashby
+  slug: juro
+  careers_url: https://jobs.ashbyhq.com/juro
+  region: london
+- name: Metaview
+  ats: ashby
+  slug: metaview
+  careers_url: https://jobs.ashbyhq.com/metaview
+  region: london
+- name: FluidStack
+  ats: ashby
+  slug: fluidstack
+  careers_url: https://jobs.ashbyhq.com/fluidstack
+  region: london
+- name: CuspAI
+  ats: ashby
+  slug: cuspai
+  careers_url: https://jobs.ashbyhq.com/cuspai
+  region: london
+- name: Granola
+  ats: ashby
+  slug: granola
+  careers_url: https://jobs.ashbyhq.com/granola
+  region: london
+- name: Olix
+  ats: ashby
+  slug: olix
+  careers_url: https://jobs.ashbyhq.com/olix
+  region: london
+- name: CoMind
+  ats: ashby
+  slug: comind
+  careers_url: https://jobs.ashbyhq.com/comind
+  region: london
+- name: Funding Circle
+  ats: ashby
+  slug: fundingcircle
+  careers_url: https://jobs.ashbyhq.com/fundingcircle
+  region: london
+- name: Abound
+  ats: ashby
+  slug: abound
+  careers_url: https://jobs.ashbyhq.com/abound
+  region: london
+- name: Zoe
+  ats: ashby
+  slug: zoe
+  careers_url: https://jobs.ashbyhq.com/zoe
+  region: london
+- name: Encord
+  ats: ashby
+  slug: encord
+  careers_url: https://jobs.ashbyhq.com/encord
+  region: london
+- name: Roboflow
+  ats: ashby
+  slug: roboflow
+  careers_url: https://jobs.ashbyhq.com/roboflow
+  region: remote
+- name: Demandbase
+  ats: ashby
+  slug: demandbase
+  careers_url: https://jobs.ashbyhq.com/demandbase
+  region: remote
+- name: Gensyn
+  ats: greenhouse
+  slug: gensyn
+  careers_url: https://boards.greenhouse.io/gensyn
+  region: london
+- name: Form3
+  ats: greenhouse
+  slug: form3
+  careers_url: https://boards.greenhouse.io/form3
+  region: london
+- name: Wellhub (Gympass)
+  ats: greenhouse
+  slug: gympass
+  careers_url: https://boards.greenhouse.io/gympass
+  region: remote
+- name: ClassPass
+  ats: greenhouse
+  slug: classpass
+  careers_url: https://boards.greenhouse.io/classpass
+  region: remote
+- name: Affirm
+  ats: greenhouse
+  slug: affirm
+  careers_url: https://boards.greenhouse.io/affirm
+  region: remote
+- name: Codat
+  ats: ashby
+  slug: codat
+  careers_url: https://jobs.ashbyhq.com/codat
+  region: london
+- name: Omnea
+  ats: ashby
+  slug: omnea
+  careers_url: https://jobs.ashbyhq.com/omnea
+  region: london
+- name: Legora
+  ats: ashby
+  slug: legora
+  careers_url: https://jobs.ashbyhq.com/legora
+  region: london
+- name: PointFive
+  ats: ashby
+  slug: pointfive
+  careers_url: https://jobs.ashbyhq.com/pointfive
+  region: remote
+- name: Lottie
+  ats: ashby
+  slug: lottie
+  careers_url: https://jobs.ashbyhq.com/lottie
+  region: london
+- name: Mollie
+  ats: ashby
+  slug: mollie
+  careers_url: https://jobs.ashbyhq.com/mollie
+  region: remote
+- name: Limbic
+  ats: ashby
+  slug: limbic
+  careers_url: https://jobs.ashbyhq.com/limbic
+  region: london
+- name: Supercell
+  ats: ashby
+  slug: supercell
+  careers_url: https://jobs.ashbyhq.com/supercell
+  region: remote
+- name: UiPath
+  ats: ashby
+  slug: uipath
+  careers_url: https://jobs.ashbyhq.com/uipath
+  region: remote
+- name: Pleo
+  ats: ashby
+  slug: pleo
+  careers_url: https://jobs.ashbyhq.com/pleo
+  region: london
+- name: Airwallex
+  ats: ashby
+  slug: airwallex
+  careers_url: https://jobs.ashbyhq.com/airwallex
+  region: london
+- name: "Legal & General"
+  ats: smartrecruiters
+  slug: LegalAndGeneral
+  careers_url: https://jobs.smartrecruiters.com/LegalAndGeneral
+  region: london
+- name: Experian
+  ats: smartrecruiters
+  slug: Experian
+  careers_url: https://jobs.smartrecruiters.com/Experian
+  region: london
+- name: PandaDoc
+  ats: greenhouse
+  slug: pandadoc
+  careers_url: https://boards.greenhouse.io/pandadoc
+  region: remote
+- name: Carta
+  ats: greenhouse
+  slug: carta
+  careers_url: https://boards.greenhouse.io/carta
+  region: remote
+- name: Ledgy
+  ats: greenhouse
+  slug: ledgy
+  careers_url: https://boards.greenhouse.io/ledgy
+  region: remote
+- name: Observe.AI
+  ats: greenhouse
+  slug: observeai
+  careers_url: https://boards.greenhouse.io/observeai
+  region: remote
+- name: Invoca
+  ats: greenhouse
+  slug: invoca
+  careers_url: https://boards.greenhouse.io/invoca
+  region: remote
+- name: Parloa
+  ats: greenhouse
+  slug: parloa
+  careers_url: https://boards.greenhouse.io/parloa
+  region: remote
+- name: Tomorrow.io
+  ats: greenhouse
+  slug: tomorrow
+  careers_url: https://boards.greenhouse.io/tomorrow
+  region: remote
+- name: Kettle
+  ats: greenhouse
+  slug: kettle
+  careers_url: https://boards.greenhouse.io/kettle
+  region: remote
+- name: Planet Labs
+  ats: greenhouse
+  slug: planetlabs
+  careers_url: https://boards.greenhouse.io/planetlabs
+  region: remote
+- name: Semafor
+  ats: greenhouse
+  slug: semafor
+  careers_url: https://boards.greenhouse.io/semafor
+  region: remote
+- name: Prophet
+  ats: greenhouse
+  slug: prophet
+  careers_url: https://boards.greenhouse.io/prophet
+  region: remote
+- name: AlixPartners
+  ats: greenhouse
+  slug: alixpartners
+  careers_url: https://boards.greenhouse.io/alixpartners
+  region: london
+- name: Warp
+  ats: greenhouse
+  slug: warp
+  careers_url: https://boards.greenhouse.io/warp
+  region: remote
+- name: Harvey
+  ats: ashby
+  slug: harvey
+  careers_url: https://jobs.ashbyhq.com/harvey
+  region: remote
+- name: Level AI
+  ats: ashby
+  slug: level-ai
+  careers_url: https://jobs.ashbyhq.com/level-ai
+  region: remote
+- name: Rasa
+  ats: ashby
+  slug: rasa
+  careers_url: https://jobs.ashbyhq.com/rasa
+  region: remote
+- name: Poolside
+  ats: ashby
+  slug: poolside
+  careers_url: https://jobs.ashbyhq.com/poolside
+  region: remote
+- name: Replit
+  ats: ashby
+  slug: replit
+  careers_url: https://jobs.ashbyhq.com/replit
+  region: remote
+- name: Abridge
+  ats: ashby
+  slug: abridge
+  careers_url: https://jobs.ashbyhq.com/abridge
+  region: remote
+- name: Commure
+  ats: ashby
+  slug: commure
+  careers_url: https://jobs.ashbyhq.com/commure
+  region: remote
+- name: Accurx
+  ats: ashby
+  slug: accurx
+  careers_url: https://jobs.ashbyhq.com/accurx
+  region: london
+- name: ICEYE
+  ats: ashby
+  slug: iceye
+  careers_url: https://jobs.ashbyhq.com/iceye
+  region: london
+- name: Honeycomb
+  ats: greenhouse
+  slug: honeycomb
+  careers_url: https://boards.greenhouse.io/honeycomb
+  region: remote
+- name: Liberis
+  ats: greenhouse
+  slug: liberis
+  careers_url: https://boards.greenhouse.io/liberis
+  region: london
+- name: Tavily
+  ats: greenhouse
+  slug: tavily
+  careers_url: https://boards.greenhouse.io/tavily
+  region: remote
+- name: Goodlord
+  ats: ashby
+  slug: goodlord
+  careers_url: https://jobs.ashbyhq.com/goodlord
+  region: london
+- name: Braintrust
+  ats: ashby
+  slug: braintrust
+  careers_url: https://jobs.ashbyhq.com/braintrust
+  region: remote
+- name: Vanta
+  ats: ashby
+  slug: vanta
+  careers_url: https://jobs.ashbyhq.com/vanta
+  region: london
+- name: Drata
+  ats: ashby
+  slug: drata
+  careers_url: https://jobs.ashbyhq.com/drata
+  region: remote
+- name: Overstory
+  ats: greenhouse
+  slug: overstory
+  careers_url: https://boards.greenhouse.io/overstory
+  region: remote
+- name: Trustpilot
+  ats: greenhouse
+  slug: trustpilot
+  careers_url: https://boards.greenhouse.io/trustpilot
+  region: london
+- name: Multiverse
+  ats: ashby
+  slug: multiverse
+  careers_url: https://jobs.ashbyhq.com/multiverse
+  region: london
+- name: Checkatrade
+  ats: ashby
+  slug: checkatrade
+  careers_url: https://jobs.ashbyhq.com/checkatrade
+  region: london
+- name: Consensys (MetaMask)
+  ats: greenhouse
+  slug: consensys
+  careers_url: https://boards.greenhouse.io/consensys
+  region: remote
+- name: Zerion
+  ats: lever
+  slug: zerion
+  careers_url: https://jobs.lever.co/zerion
+  region: remote
+- name: 1inch
+  ats: lever
+  slug: 1inch
+  careers_url: https://jobs.lever.co/1inch
+  region: remote
+- name: MoonPay
+  ats: lever
+  slug: moonpay
+  careers_url: https://jobs.lever.co/moonpay
+  region: london
+- name: Matter Labs
+  ats: ashby
+  slug: matter-labs
+  careers_url: https://jobs.ashbyhq.com/matter-labs
+  region: remote
+- name: Polygon Labs
+  ats: ashby
+  slug: polygon-labs
+  careers_url: https://jobs.ashbyhq.com/polygon-labs
+  region: remote
+- name: Notabene
+  ats: ashby
+  slug: notabene
+  careers_url: https://jobs.ashbyhq.com/notabene
+  region: remote
+- name: Cognition
+  ats: ashby
+  slug: cognition
+  careers_url: https://jobs.ashbyhq.com/cognition
+  region: remote
+- name: Decagon
+  ats: ashby
+  slug: decagon
+  careers_url: https://jobs.ashbyhq.com/decagon
+  region: remote
+
+- {name: Wayve, ats: greenhouse, slug: wayve, careers_url: "https://boards.greenhouse.io/wayve", region: london}
+- {name: Speechmatics, ats: greenhouse, slug: speechmatics, careers_url: "https://boards.greenhouse.io/speechmatics", region: london}
+- {name: Synthesia, ats: ashby, slug: synthesia, careers_url: "https://jobs.ashbyhq.com/synthesia", region: london}
+- {name: Tractable, ats: ashby, slug: tractable, careers_url: "https://jobs.ashbyhq.com/tractable", region: london}
+- {name: Wise, ats: smartrecruiters, slug: Wise, careers_url: "https://jobs.smartrecruiters.com/Wise", region: london}
+
+# harvested by discover/harvest_boards.py
+- {name: "Beamery", ats: ashby, slug: "beamery", careers_url: "https://jobs.ashbyhq.com/beamery", region: london}
+- {name: "Beamery", ats: smartrecruiters, slug: "beamery", careers_url: "https://jobs.smartrecruiters.com/beamery", region: london}
+- {name: "Latent Labs", ats: ashby, slug: "latentlabs", careers_url: "https://jobs.ashbyhq.com/latentlabs", region: london}
+- {name: "Basecamp Research", ats: ashby, slug: "basecamp-research", careers_url: "https://jobs.ashbyhq.com/basecamp-research", region: london}
+- {name: "Owkin", ats: ashby, slug: "owkin", careers_url: "https://jobs.ashbyhq.com/owkin", region: london}
+- {name: "Apollo Research", ats: lever, slug: "apolloresearch", careers_url: "https://jobs.lever.co/apolloresearch", region: london}
+- {name: "Healx", ats: lever, slug: "healx", careers_url: "https://jobs.lever.co/healx", region: london}
+- {name: "OpenAI", ats: ashby, slug: "openai", careers_url: "https://jobs.ashbyhq.com/openai", region: london}
+- {name: "Supabase", ats: ashby, slug: "supabase", careers_url: "https://jobs.ashbyhq.com/supabase", region: london}
+- {name: "Spotify", ats: lever, slug: "spotify", careers_url: "https://jobs.lever.co/spotify", region: london}
+- {name: "Fireworks AI", ats: ashby, slug: "fireworks", careers_url: "https://jobs.ashbyhq.com/fireworks", region: london}
+- {name: "Snowflake", ats: ashby, slug: "snowflake", careers_url: "https://jobs.ashbyhq.com/snowflake", region: london}
+- {name: "Cresta", ats: greenhouse, slug: "cresta", careers_url: "https://boards.greenhouse.io/cresta", region: london}
+- {name: "Together AI", ats: smartrecruiters, slug: "together", careers_url: "https://jobs.smartrecruiters.com/together", region: london}
+- {name: "Together AI", ats: greenhouse, slug: "togetherai", careers_url: "https://boards.greenhouse.io/togetherai", region: london}
+- {name: "Notion", ats: ashby, slug: "notion", careers_url: "https://jobs.ashbyhq.com/notion", region: london}
+- {name: "Amplitude", ats: ashby, slug: "amplitude", careers_url: "https://jobs.ashbyhq.com/amplitude", region: london}
+- {name: "Airtable", ats: greenhouse, slug: "airtable", careers_url: "https://boards.greenhouse.io/airtable", region: london}
+- {name: "Grafana Labs", ats: greenhouse, slug: "grafanalabs", careers_url: "https://boards.greenhouse.io/grafanalabs", region: london}
+- {name: "1Password", ats: ashby, slug: "1password", careers_url: "https://jobs.ashbyhq.com/1password", region: london}
+- {name: "Canva", ats: smartrecruiters, slug: "canva", careers_url: "https://jobs.smartrecruiters.com/canva", region: london}
+- {name: "LaunchDarkly", ats: greenhouse, slug: "launchdarkly", careers_url: "https://boards.greenhouse.io/launchdarkly", region: london}
+- {name: "Okta", ats: greenhouse, slug: "okta", careers_url: "https://boards.greenhouse.io/okta", region: london}
+- {name: "Raspberry Pi", ats: ashby, slug: "raspberry", careers_url: "https://jobs.ashbyhq.com/raspberry", region: london}
+- {name: "Helsing", ats: greenhouse, slug: "helsing", careers_url: "https://boards.greenhouse.io/helsing", region: london}
+- {name: "Thought Machine", ats: ashby, slug: "thought-machine", careers_url: "https://jobs.ashbyhq.com/thought-machine", region: london}
+- {name: "Palantir", ats: smartrecruiters, slug: "palantir", careers_url: "https://jobs.smartrecruiters.com/palantir", region: london}
+- {name: "Lendable", ats: ashby, slug: "lendable", careers_url: "https://jobs.ashbyhq.com/lendable", region: london}
+- {name: "Teya", ats: ashby, slug: "teya", careers_url: "https://jobs.ashbyhq.com/teya", region: london}
+- {name: "Wayflyer", ats: ashby, slug: "wayflyer", careers_url: "https://jobs.ashbyhq.com/wayflyer", region: london}
+- {name: "Sophos", ats: lever, slug: "sophos", careers_url: "https://jobs.lever.co/sophos", region: london}
+- {name: "Circle", ats: ashby, slug: "circle", careers_url: "https://jobs.ashbyhq.com/circle", region: london}
+- {name: "Plaid", ats: ashby, slug: "plaid", careers_url: "https://jobs.ashbyhq.com/plaid", region: london}
+- {name: "Coinbase", ats: greenhouse, slug: "coinbase", careers_url: "https://boards.greenhouse.io/coinbase", region: london}
+- {name: "Ripple", ats: greenhouse, slug: "ripple", careers_url: "https://boards.greenhouse.io/ripple", region: london}
+- {name: "Zopa", ats: lever, slug: "zopa", careers_url: "https://jobs.lever.co/zopa", region: london}
+- {name: "Flock", ats: ashby, slug: "flock", careers_url: "https://jobs.ashbyhq.com/flock", region: london}
+- {name: "Deliveroo", ats: ashby, slug: "deliveroo", careers_url: "https://jobs.ashbyhq.com/deliveroo", region: london}
+- {name: "Policy Expert", ats: greenhouse, slug: "policyexpert", careers_url: "https://boards.greenhouse.io/policyexpert", region: london}
+- {name: "Trainline", ats: ashby, slug: "trainline", careers_url: "https://jobs.ashbyhq.com/trainline", region: london}
+- {name: "Auto Trader", ats: greenhouse, slug: "autotrader", careers_url: "https://boards.greenhouse.io/autotrader", region: london}
+- {name: "ASOS", ats: smartrecruiters, slug: "asos", careers_url: "https://jobs.smartrecruiters.com/asos", region: london}
+- {name: "Too Good To Go", ats: ashby, slug: "toogoodtogo", careers_url: "https://jobs.ashbyhq.com/toogoodtogo", region: london}
+- {name: "Gymshark", ats: greenhouse, slug: "gymshark", careers_url: "https://boards.greenhouse.io/gymshark", region: london}
+- {name: "Gousto", ats: smartrecruiters, slug: "gousto", careers_url: "https://jobs.smartrecruiters.com/gousto", region: london}
+- {name: "Hello Fresh", ats: greenhouse, slug: "hellofresh", careers_url: "https://boards.greenhouse.io/hellofresh", region: london}
+- {name: "Kayak", ats: ashby, slug: "kayak", careers_url: "https://jobs.ashbyhq.com/kayak", region: london}
+- {name: "Airbnb", ats: greenhouse, slug: "airbnb", careers_url: "https://boards.greenhouse.io/airbnb", region: london}
+- {name: "Socure", ats: ashby, slug: "socure", careers_url: "https://jobs.ashbyhq.com/socure", region: london}
+- {name: "Veriff", ats: greenhouse, slug: "veriff", careers_url: "https://boards.greenhouse.io/veriff", region: london}
+- {name: "Jumio", ats: greenhouse, slug: "jumio", careers_url: "https://boards.greenhouse.io/jumio", region: london}
+- {name: "Ebury", ats: greenhouse, slug: "ebury", careers_url: "https://boards.greenhouse.io/ebury", region: london}
+- {name: "Moonpig", ats: lever, slug: "moonpig", careers_url: "https://jobs.lever.co/moonpig", region: london}
+- {name: "Pivot Power", ats: ashby, slug: "pivot", careers_url: "https://jobs.ashbyhq.com/pivot", region: london}
+- {name: "Waymo", ats: greenhouse, slug: "waymo", careers_url: "https://boards.greenhouse.io/waymo", region: london}
+- {name: "Mubi", ats: ashby, slug: "mubi", careers_url: "https://jobs.ashbyhq.com/mubi", region: london}
+- {name: "Jane Street", ats: greenhouse, slug: "janestreet", careers_url: "https://boards.greenhouse.io/janestreet", region: london}
+- {name: "Nium", ats: lever, slug: "nium", careers_url: "https://jobs.lever.co/nium", region: london}
+- {name: "Flow Traders", ats: greenhouse, slug: "flowtraders", careers_url: "https://boards.greenhouse.io/flowtraders", region: london}
+- {name: "IMC Trading", ats: greenhouse, slug: "imc", careers_url: "https://boards.greenhouse.io/imc", region: london}
+- {name: "Squarepoint Capital", ats: greenhouse, slug: "squarepointcapital", careers_url: "https://boards.greenhouse.io/squarepointcapital", region: london}
+- {name: "Man Group", ats: greenhouse, slug: "mangroup", careers_url: "https://boards.greenhouse.io/mangroup", region: london}
+- {name: "Point72", ats: greenhouse, slug: "point72", careers_url: "https://boards.greenhouse.io/point72", region: london}
+- {name: "Schonfeld", ats: greenhouse, slug: "schonfeld", careers_url: "https://boards.greenhouse.io/schonfeld", region: london}
+- {name: "Jump Trading", ats: greenhouse, slug: "jumptrading", careers_url: "https://boards.greenhouse.io/jumptrading", region: london}
+- {name: "Virtu", ats: greenhouse, slug: "virtu", careers_url: "https://boards.greenhouse.io/virtu", region: london}
+- {name: "Entain", ats: smartrecruiters, slug: "entain", careers_url: "https://jobs.smartrecruiters.com/entain", region: london}
+- {name: "Akuna Capital", ats: greenhouse, slug: "akunacapital", careers_url: "https://boards.greenhouse.io/akunacapital", region: london}
+- {name: "Winton", ats: greenhouse, slug: "winton", careers_url: "https://boards.greenhouse.io/winton", region: london}
+- {name: "Zoox", ats: lever, slug: "zoox", careers_url: "https://jobs.lever.co/zoox", region: london}
+- {name: "AQR", ats: greenhouse, slug: "aqr", careers_url: "https://boards.greenhouse.io/aqr", region: london}
+- {name: "Thoughtworks", ats: greenhouse, slug: "thoughtworks", careers_url: "https://boards.greenhouse.io/thoughtworks", region: london}
+- {name: "Genomics England", ats: ashby, slug: "genomics", careers_url: "https://jobs.ashbyhq.com/genomics", region: london}
+- {name: "Nesta", ats: greenhouse, slug: "nesta", careers_url: "https://boards.greenhouse.io/nesta", region: london}
+- {name: "Endava", ats: smartrecruiters, slug: "endava", careers_url: "https://jobs.smartrecruiters.com/endava", region: london}
+- {name: "Genomics England", ats: smartrecruiters, slug: "genomicsengland", careers_url: "https://jobs.smartrecruiters.com/genomicsengland", region: london}
+- {name: "Temporal", ats: ashby, slug: "temporal", careers_url: "https://jobs.ashbyhq.com/temporal", region: london}
+- {name: "Apollo GraphQL", ats: ashby, slug: "apollo-graphql", careers_url: "https://jobs.ashbyhq.com/apollo-graphql", region: london}
+- {name: "Tailscale", ats: greenhouse, slug: "tailscale", careers_url: "https://boards.greenhouse.io/tailscale", region: london}
+- {name: "Cockroach Labs", ats: greenhouse, slug: "cockroachlabs", careers_url: "https://boards.greenhouse.io/cockroachlabs", region: london}
+- {name: "Mux", ats: ashby, slug: "mux", careers_url: "https://jobs.ashbyhq.com/mux", region: london}
+- {name: "Freshworks", ats: smartrecruiters, slug: "freshworks", careers_url: "https://jobs.smartrecruiters.com/freshworks", region: london}
+- {name: "Bitmovin", ats: greenhouse, slug: "bitmovin", careers_url: "https://boards.greenhouse.io/bitmovin", region: london}
+- {name: "Scott Logic", ats: lever, slug: "scottlogic", careers_url: "https://jobs.lever.co/scottlogic", region: london}
+- {name: "Lattice", ats: greenhouse, slug: "lattice", careers_url: "https://boards.greenhouse.io/lattice", region: london}
+- {name: "Culture Amp", ats: greenhouse, slug: "cultureamp", careers_url: "https://boards.greenhouse.io/cultureamp", region: london}
+- {name: "Xero", ats: ashby, slug: "xero", careers_url: "https://jobs.ashbyhq.com/xero", region: london}
+- {name: "Hibob", ats: smartrecruiters, slug: "hibob", careers_url: "https://jobs.smartrecruiters.com/hibob", region: london}
+- {name: "Lunar", ats: ashby, slug: "lunar", careers_url: "https://jobs.ashbyhq.com/lunar", region: london}
+- {name: "Raisin", ats: greenhouse, slug: "raisin", careers_url: "https://boards.greenhouse.io/raisin", region: london}
+- {name: "Algolia", ats: greenhouse, slug: "algolia", careers_url: "https://boards.greenhouse.io/algolia", region: london}
+- {name: "Mirakl", ats: greenhouse, slug: "mirakl", careers_url: "https://boards.greenhouse.io/mirakl", region: london}
+- {name: "H Company", ats: ashby, slug: "hcompany", careers_url: "https://jobs.ashbyhq.com/hcompany", region: london}
+
+# harvested by discover/harvest_boards.py
+- {name: "Riverlane", ats: greenhouse, slug: "riverlane", careers_url: "https://boards.greenhouse.io/riverlane", region: london}
+- {name: "Cambridge Mobile Telematics", ats: greenhouse, slug: "cambridgemobiletelematics", careers_url: "https://boards.greenhouse.io/cambridgemobiletelematics", region: london}
+- {name: "Hive", ats: greenhouse, slug: "hive", careers_url: "https://boards.greenhouse.io/hive", region: london}
+
+# harvested by discover/harvest_boards.py
+- {name: "Ineffable Intelligence", ats: ashby, slug: "ineffable", careers_url: "https://jobs.ashbyhq.com/ineffable", region: london}
+- {name: "Scarlet", ats: ashby, slug: "scarlet", careers_url: "https://jobs.ashbyhq.com/scarlet", region: london}
+- {name: "Inherent", ats: ashby, slug: "inherent", careers_url: "https://jobs.ashbyhq.com/inherent", region: london}
+- {name: "Nevis", ats: ashby, slug: "nevis", careers_url: "https://jobs.ashbyhq.com/nevis", region: london}
+- {name: "Paid", ats: ashby, slug: "paid", careers_url: "https://jobs.ashbyhq.com/paid", region: london}
+- {name: "Mosaic TX", ats: ashby, slug: "mosaic", careers_url: "https://jobs.ashbyhq.com/mosaic", region: london}
+- {name: "algo1", ats: ashby, slug: "algo1", careers_url: "https://jobs.ashbyhq.com/algo1", region: london}
+- {name: "Hiverge", ats: ashby, slug: "hiverge", careers_url: "https://jobs.ashbyhq.com/hiverge", region: london}
+- {name: "Nous", ats: ashby, slug: "nous", careers_url: "https://jobs.ashbyhq.com/nous", region: london}
+- {name: "Searchable", ats: ashby, slug: "searchable", careers_url: "https://jobs.ashbyhq.com/searchable", region: london}
+- {name: "Augur", ats: ashby, slug: "augur", careers_url: "https://jobs.ashbyhq.com/augur", region: london}
+- {name: "Condukt", ats: ashby, slug: "condukt", careers_url: "https://jobs.ashbyhq.com/condukt", region: london}
+- {name: "Prolific", ats: greenhouse, slug: "prolific", careers_url: "https://boards.greenhouse.io/prolific", region: london}
+
+# harvested by discover/harvest_boards.py
+- {name: "Sequence", ats: ashby, slug: "sequence", careers_url: "https://jobs.ashbyhq.com/sequence", region: london}
+- {name: "Theaa1", ats: smartrecruiters, slug: "theaa1", careers_url: "https://jobs.smartrecruiters.com/theaa1", region: london}
+- {name: "Prolificacademicltd", ats: greenhouse, slug: "prolificacademicltd", careers_url: "https://boards.greenhouse.io/prolificacademicltd", region: london}
+- {name: "Ema", ats: ashby, slug: "ema", careers_url: "https://jobs.ashbyhq.com/ema", region: london}
+- {name: "Iai", ats: greenhouse, slug: "iai", careers_url: "https://boards.greenhouse.io/iai", region: london}
+- {name: "Ifs1", ats: smartrecruiters, slug: "ifs1", careers_url: "https://jobs.smartrecruiters.com/ifs1", region: london}
+- {name: "Eloquentai", ats: ashby, slug: "eloquentai", careers_url: "https://jobs.ashbyhq.com/eloquentai", region: london}
+- {name: "Paconsulting", ats: smartrecruiters, slug: "paconsulting", careers_url: "https://jobs.smartrecruiters.com/paconsulting", region: london}
+- {name: "Smartsheet", ats: greenhouse, slug: "smartsheet", careers_url: "https://boards.greenhouse.io/smartsheet", region: london}
+- {name: "Mitsubishipoweremea", ats: smartrecruiters, slug: "mitsubishipoweremea", careers_url: "https://jobs.smartrecruiters.com/mitsubishipoweremea", region: london}
+- {name: "Addepar1", ats: greenhouse, slug: "addepar1", careers_url: "https://boards.greenhouse.io/addepar1", region: london}
+- {name: "Aisi", ats: greenhouse, slug: "aisi", careers_url: "https://boards.greenhouse.io/aisi", region: london}
+- {name: "Thenielsencompany", ats: smartrecruiters, slug: "thenielsencompany", careers_url: "https://jobs.smartrecruiters.com/thenielsencompany", region: london}
+- {name: "Bjakcareer", ats: ashby, slug: "bjakcareer", careers_url: "https://jobs.ashbyhq.com/bjakcareer", region: london}
+- {name: "Spaitial", ats: ashby, slug: "spaitial", careers_url: "https://jobs.ashbyhq.com/spaitial", region: london}
+- {name: "M3Usa", ats: smartrecruiters, slug: "m3usa", careers_url: "https://jobs.smartrecruiters.com/m3usa", region: london}
+- {name: "Goodfire", ats: greenhouse, slug: "goodfire", careers_url: "https://boards.greenhouse.io/goodfire", region: london}
+- {name: "Edra", ats: ashby, slug: "edra", careers_url: "https://jobs.ashbyhq.com/edra", region: london}
+- {name: "Version1", ats: smartrecruiters, slug: "version1", careers_url: "https://jobs.smartrecruiters.com/version1", region: london}
+- {name: "Shifttechnology", ats: greenhouse, slug: "shifttechnology", careers_url: "https://boards.greenhouse.io/shifttechnology", region: london}
+- {name: "Vega", ats: ashby, slug: "vega", careers_url: "https://jobs.ashbyhq.com/vega", region: london}
+- {name: "Koboldmetals", ats: greenhouse, slug: "koboldmetals", careers_url: "https://boards.greenhouse.io/koboldmetals", region: london}
+- {name: "Netcompany1", ats: smartrecruiters, slug: "netcompany1", careers_url: "https://jobs.smartrecruiters.com/netcompany1", region: london}
+- {name: "Voleon", ats: ashby, slug: "voleon", careers_url: "https://jobs.ashbyhq.com/voleon", region: london}
+- {name: "Physicsx", ats: greenhouse, slug: "physicsx", careers_url: "https://boards.greenhouse.io/physicsx", region: london}
+- {name: "Linkedin3", ats: smartrecruiters, slug: "linkedin3", careers_url: "https://jobs.smartrecruiters.com/linkedin3", region: london}
+- {name: "Ajbell1", ats: smartrecruiters, slug: "ajbell1", careers_url: "https://jobs.smartrecruiters.com/ajbell1", region: london}
+- {name: "Junior", ats: ashby, slug: "junior", careers_url: "https://jobs.ashbyhq.com/junior", region: london}
+- {name: "Hubspotjobs", ats: greenhouse, slug: "hubspotjobs", careers_url: "https://boards.greenhouse.io/hubspotjobs", region: london}
+- {name: "Checkout.Com", ats: ashby, slug: "checkout.com", careers_url: "https://jobs.ashbyhq.com/checkout.com", region: london}
+- {name: "Arq", ats: ashby, slug: "arq", careers_url: "https://jobs.ashbyhq.com/arq", region: london}
+- {name: "Justworks", ats: greenhouse, slug: "justworks", careers_url: "https://boards.greenhouse.io/justworks", region: london}
+- {name: "Sia", ats: smartrecruiters, slug: "sia", careers_url: "https://jobs.smartrecruiters.com/sia", region: london}
+- {name: "Dominodatalab", ats: greenhouse, slug: "dominodatalab", careers_url: "https://boards.greenhouse.io/dominodatalab", region: london}
+- {name: "Degree6", ats: smartrecruiters, slug: "degree6", careers_url: "https://jobs.smartrecruiters.com/degree6", region: london}
+- {name: "Hims And Hers", ats: ashby, slug: "hims-and-hers", careers_url: "https://jobs.ashbyhq.com/hims-and-hers", region: london}
+- {name: "Castaigroupinc", ats: greenhouse, slug: "castaigroupinc", careers_url: "https://boards.greenhouse.io/castaigroupinc", region: london}
+- {name: "Quriousassociateslimited", ats: smartrecruiters, slug: "quriousassociateslimited", careers_url: "https://jobs.smartrecruiters.com/quriousassociateslimited", region: london}
+- {name: "Mistral.Ai", ats: ashby, slug: "mistral.ai", careers_url: "https://jobs.ashbyhq.com/mistral.ai", region: london}
+- {name: "Chainalysis Careers", ats: ashby, slug: "chainalysis-careers", careers_url: "https://jobs.ashbyhq.com/chainalysis-careers", region: london}
+- {name: "Tulip", ats: greenhouse, slug: "tulip", careers_url: "https://boards.greenhouse.io/tulip", region: london}
+- {name: "Hellokindred", ats: smartrecruiters, slug: "hellokindred", careers_url: "https://jobs.smartrecruiters.com/hellokindred", region: london}
+- {name: "Bet3651", ats: smartrecruiters, slug: "bet3651", careers_url: "https://jobs.smartrecruiters.com/bet3651", region: london}
+- {name: "Chattermill", ats: ashby, slug: "chattermill", careers_url: "https://jobs.ashbyhq.com/chattermill", region: london}
+- {name: "Cint", ats: smartrecruiters, slug: "cint", careers_url: "https://jobs.smartrecruiters.com/cint", region: london}
+- {name: "Talan", ats: smartrecruiters, slug: "talan", careers_url: "https://jobs.smartrecruiters.com/talan", region: london}
+- {name: "Neko Health", ats: ashby, slug: "neko-health", careers_url: "https://jobs.ashbyhq.com/neko-health", region: london}
+- {name: "Aecom2", ats: smartrecruiters, slug: "aecom2", careers_url: "https://jobs.smartrecruiters.com/aecom2", region: london}
+- {name: "Ultralytics", ats: ashby, slug: "ultralytics", careers_url: "https://jobs.ashbyhq.com/ultralytics", region: london}
+- {name: "Newrouterecruitmentlimited", ats: smartrecruiters, slug: "newrouterecruitmentlimited", careers_url: "https://jobs.smartrecruiters.com/newrouterecruitmentlimited", region: london}
+- {name: "Aveni", ats: ashby, slug: "aveni", careers_url: "https://jobs.ashbyhq.com/aveni", region: london}
+- {name: "Jobsforhumanity", ats: smartrecruiters, slug: "jobsforhumanity", careers_url: "https://jobs.smartrecruiters.com/jobsforhumanity", region: london}
+- {name: "Primer.Io", ats: ashby, slug: "primer.io", careers_url: "https://jobs.ashbyhq.com/primer.io", region: london}
+- {name: "Informagroupplc", ats: smartrecruiters, slug: "informagroupplc", careers_url: "https://jobs.smartrecruiters.com/informagroupplc", region: london}
+- {name: "Tem", ats: ashby, slug: "tem", careers_url: "https://jobs.ashbyhq.com/tem", region: london}
+- {name: "51D", ats: ashby, slug: "51d", careers_url: "https://jobs.ashbyhq.com/51d", region: london}
+- {name: "Diffractivelabs", ats: ashby, slug: "diffractivelabs", careers_url: "https://jobs.ashbyhq.com/diffractivelabs", region: london}
+- {name: "Cliffordchance", ats: smartrecruiters, slug: "cliffordchance", careers_url: "https://jobs.smartrecruiters.com/cliffordchance", region: london}
+- {name: "Dayhoff Labs", ats: ashby, slug: "dayhoff-labs", careers_url: "https://jobs.ashbyhq.com/dayhoff-labs", region: london}
+- {name: "Mufginvestorservices", ats: smartrecruiters, slug: "mufginvestorservices", careers_url: "https://jobs.smartrecruiters.com/mufginvestorservices", region: london}
+- {name: "Orbitalindustries", ats: ashby, slug: "orbitalindustries", careers_url: "https://jobs.ashbyhq.com/orbitalindustries", region: london}
+- {name: "Callosum", ats: ashby, slug: "callosum", careers_url: "https://jobs.ashbyhq.com/callosum", region: london}
+- {name: "Solveintelligence", ats: ashby, slug: "solveintelligence", careers_url: "https://jobs.ashbyhq.com/solveintelligence", region: london}
+- {name: "Fastmarkets", ats: smartrecruiters, slug: "fastmarkets", careers_url: "https://jobs.smartrecruiters.com/fastmarkets", region: london}
+- {name: "Magentic", ats: ashby, slug: "magentic", careers_url: "https://jobs.ashbyhq.com/magentic", region: london}
+- {name: "Telefonicatech", ats: smartrecruiters, slug: "telefonicatech", careers_url: "https://jobs.smartrecruiters.com/telefonicatech", region: london}
+- {name: "Gradient Labs", ats: ashby, slug: "gradient-labs", careers_url: "https://jobs.ashbyhq.com/gradient-labs", region: london}
+- {name: "Boschgroup", ats: smartrecruiters, slug: "boschgroup", careers_url: "https://jobs.smartrecruiters.com/boschgroup", region: london}
+- {name: "Fintricity", ats: smartrecruiters, slug: "fintricity", careers_url: "https://jobs.smartrecruiters.com/fintricity", region: london}
+- {name: "Uforce", ats: ashby, slug: "uforce", careers_url: "https://jobs.ashbyhq.com/uforce", region: london}
+- {name: "Ttp1", ats: smartrecruiters, slug: "ttp1", careers_url: "https://jobs.smartrecruiters.com/ttp1", region: london}
+- {name: "Turnitinllc", ats: smartrecruiters, slug: "turnitinllc", careers_url: "https://jobs.smartrecruiters.com/turnitinllc", region: london}
+- {name: "Applied", ats: ashby, slug: "applied", careers_url: "https://jobs.ashbyhq.com/applied", region: london}
+- {name: "Plumerai", ats: ashby, slug: "plumerai", careers_url: "https://jobs.ashbyhq.com/plumerai", region: london}
+- {name: "Reka", ats: ashby, slug: "reka", careers_url: "https://jobs.ashbyhq.com/reka", region: london}
+- {name: "Lyst", ats: smartrecruiters, slug: "lyst", careers_url: "https://jobs.smartrecruiters.com/lyst", region: london}
+- {name: "Odysseyml", ats: ashby, slug: "odysseyml", careers_url: "https://jobs.ashbyhq.com/odysseyml", region: london}
+- {name: "Motorway", ats: ashby, slug: "motorway", careers_url: "https://jobs.ashbyhq.com/motorway", region: london}
+- {name: "Clarity", ats: ashby, slug: "clarity", careers_url: "https://jobs.ashbyhq.com/clarity", region: london}
+- {name: "Faire", ats: greenhouse, slug: "faire", careers_url: "https://boards.greenhouse.io/faire", region: london}
+- {name: "Coder", ats: ashby, slug: "coder", careers_url: "https://jobs.ashbyhq.com/coder", region: london}
+- {name: "Livekit", ats: ashby, slug: "livekit", careers_url: "https://jobs.ashbyhq.com/livekit", region: london}
+- {name: "Euphoric", ats: ashby, slug: "euphoric", careers_url: "https://jobs.ashbyhq.com/euphoric", region: london}
+- {name: "Capitalontap", ats: greenhouse, slug: "capitalontap", careers_url: "https://boards.greenhouse.io/capitalontap", region: london}
+- {name: "Brunswickgroup", ats: greenhouse, slug: "brunswickgroup", careers_url: "https://boards.greenhouse.io/brunswickgroup", region: london}
+- {name: "Impact", ats: greenhouse, slug: "impact", careers_url: "https://boards.greenhouse.io/impact", region: london}
+- {name: "Bioptimus Careers", ats: greenhouse, slug: "bioptimus-careers", careers_url: "https://boards.greenhouse.io/bioptimus-careers", region: london}
+- {name: "Awin", ats: greenhouse, slug: "awin", careers_url: "https://boards.greenhouse.io/awin", region: london}
+- {name: "Focalsystems", ats: greenhouse, slug: "focalsystems", careers_url: "https://boards.greenhouse.io/focalsystems", region: london}
+- {name: "Lightningai", ats: greenhouse, slug: "lightningai", careers_url: "https://boards.greenhouse.io/lightningai", region: london}
+- {name: "Brave", ats: greenhouse, slug: "brave", careers_url: "https://boards.greenhouse.io/brave", region: london}
+- {name: "Tripadvisor", ats: greenhouse, slug: "tripadvisor", careers_url: "https://boards.greenhouse.io/tripadvisor", region: london}
+- {name: "Anaplan", ats: greenhouse, slug: "anaplan", careers_url: "https://boards.greenhouse.io/anaplan", region: london}
+- {name: "Catapultsports", ats: greenhouse, slug: "catapultsports", careers_url: "https://boards.greenhouse.io/catapultsports", region: london}
+- {name: "Focused", ats: greenhouse, slug: "focused", careers_url: "https://boards.greenhouse.io/focused", region: london}
+
+# workable boards found by site:apply.workable.com searches 2026-10-02 (UK / AI-ML role queries); fetched at 1 request per 6s
+- {name: "G Mass", ats: workable, slug: "g-mass", careers_url: "https://apply.workable.com/g-mass", region: london}
+- {name: "Alto", ats: workable, slug: "alto", careers_url: "https://apply.workable.com/alto", region: london}
+- {name: "Smartassets", ats: workable, slug: "smartassets", careers_url: "https://apply.workable.com/smartassets", region: london}
+- {name: "Hometrack", ats: workable, slug: "hometrack", careers_url: "https://apply.workable.com/hometrack", region: london}
+- {name: "Luminance 1", ats: workable, slug: "luminance-1", careers_url: "https://apply.workable.com/luminance-1", region: london}
+- {name: "Ten Group", ats: workable, slug: "ten-group", careers_url: "https://apply.workable.com/ten-group", region: london}
+- {name: "Oxforddynamics", ats: workable, slug: "oxforddynamics", careers_url: "https://apply.workable.com/oxforddynamics", region: london}
+- {name: "Little Journey", ats: workable, slug: "little-journey", careers_url: "https://apply.workable.com/little-journey", region: london}
+- {name: "Huzzle", ats: workable, slug: "huzzle", careers_url: "https://apply.workable.com/huzzle", region: london}
+- {name: "Qureight", ats: workable, slug: "qureight", careers_url: "https://apply.workable.com/qureight", region: london}
+- {name: "Longshot Systems Ltd", ats: workable, slug: "longshot-systems-ltd", careers_url: "https://apply.workable.com/longshot-systems-ltd", region: london}
+- {name: "Zaizi", ats: workable, slug: "zaizi", careers_url: "https://apply.workable.com/zaizi", region: london}
+- {name: "Environment Bank", ats: workable, slug: "environment-bank", careers_url: "https://apply.workable.com/environment-bank", region: london}
+- {name: "Oxford Quantum Circuits 8", ats: workable, slug: "oxford-quantum-circuits-8", careers_url: "https://apply.workable.com/oxford-quantum-circuits-8", region: london}
+- {name: "Warden Ai", ats: workable, slug: "warden-ai", careers_url: "https://apply.workable.com/warden-ai", region: london}
+- {name: "Our Future Health", ats: workable, slug: "our-future-health", careers_url: "https://apply.workable.com/our-future-health", region: london}
+- {name: "Vortexa", ats: workable, slug: "vortexa", careers_url: "https://apply.workable.com/vortexa", region: london}
+- {name: "Coefficient", ats: workable, slug: "coefficient", careers_url: "https://apply.workable.com/coefficient", region: london}
+- {name: "Informed Solutions", ats: workable, slug: "informed-solutions", careers_url: "https://apply.workable.com/informed-solutions", region: london}
+- {name: "Imachines", ats: workable, slug: "imachines", careers_url: "https://apply.workable.com/imachines", region: london}
+- {name: "Nology", ats: workable, slug: "nology", careers_url: "https://apply.workable.com/nology", region: london}
+- {name: "Quantumloopai", ats: workable, slug: "quantumloopai", careers_url: "https://apply.workable.com/quantumloopai", region: london}
+- {name: "Blankstate", ats: workable, slug: "blankstate", careers_url: "https://apply.workable.com/blankstate", region: london}
+- {name: "Mlabs", ats: workable, slug: "mlabs", careers_url: "https://apply.workable.com/mlabs", region: london}
+- {name: "Inventyou Ab", ats: workable, slug: "inventyou-ab", careers_url: "https://apply.workable.com/inventyou-ab", region: london}
+- {name: "Monterail", ats: workable, slug: "monterail", careers_url: "https://apply.workable.com/monterail", region: london}
+- {name: "Helical", ats: workable, slug: "helical", careers_url: "https://apply.workable.com/helical", region: london}
+- {name: "Permutable", ats: workable, slug: "permutable", careers_url: "https://apply.workable.com/permutable", region: london}
+- {name: "Theia Insights", ats: workable, slug: "theia-insights", careers_url: "https://apply.workable.com/theia-insights", region: london}
+- {name: "Charlotte Tilbury", ats: workable, slug: "charlotte-tilbury", careers_url: "https://apply.workable.com/charlotte-tilbury", region: london}
+- {name: "Flatgigs", ats: workable, slug: "flatgigs", careers_url: "https://apply.workable.com/flatgigs", region: london}
+- {name: "Humara 2", ats: workable, slug: "humara-2", careers_url: "https://apply.workable.com/humara-2", region: london}
+- {name: "Ki Insurance", ats: workable, slug: "ki-insurance", careers_url: "https://apply.workable.com/ki-insurance", region: london}
+- {name: "Mi Forums", ats: workable, slug: "mi-forums", careers_url: "https://apply.workable.com/mi-forums", region: london}
+- {name: "Rapsodo", ats: workable, slug: "rapsodo", careers_url: "https://apply.workable.com/rapsodo", region: london}
+- {name: "Arondite", ats: workable, slug: "arondite", careers_url: "https://apply.workable.com/arondite", region: london}
+- {name: "Innovationteam", ats: workable, slug: "innovationteam", careers_url: "https://apply.workable.com/innovationteam", region: london}
+- {name: "Minerva Defence", ats: workable, slug: "minerva-defence", careers_url: "https://apply.workable.com/minerva-defence", region: london}
+- {name: "Company Name", ats: workable, slug: "company-name", careers_url: "https://apply.workable.com/company-name", region: london}
+- {name: "Opendatajobs", ats: workable, slug: "opendatajobs", careers_url: "https://apply.workable.com/opendatajobs", region: london}
+- {name: "Commonai", ats: workable, slug: "commonai", careers_url: "https://apply.workable.com/commonai", region: london}
+- {name: "Satori Analytics 1", ats: workable, slug: "satori-analytics-1", careers_url: "https://apply.workable.com/satori-analytics-1", region: london}
+- {name: "Appvia", ats: workable, slug: "appvia", careers_url: "https://apply.workable.com/appvia", region: london}
+- {name: "Homey", ats: workable, slug: "homey", careers_url: "https://apply.workable.com/homey", region: london}
+- {name: "Kope Dot A I", ats: workable, slug: "kope-dot-a-i", careers_url: "https://apply.workable.com/kope-dot-a-i", region: london}
+- {name: "Lockwood", ats: workable, slug: "lockwood", careers_url: "https://apply.workable.com/lockwood", region: london}
+- {name: "causaLens", ats: recruitee, slug: "causalens", careers_url: "https://causalens.recruitee.com", region: london}
+- {name: "gravity9", ats: recruitee, slug: "gravity9", careers_url: "https://gravity9.recruitee.com", region: london}
+- {name: "Grip", ats: recruitee, slug: "grip", careers_url: "https://grip.recruitee.com", region: london}
+- {name: "Travtus", ats: teamtailor, slug: "travtus", careers_url: "https://travtus.teamtailor.com/jobs", region: london}
+- {name: "Xelix", ats: teamtailor, slug: "xelix-1741105385", careers_url: "https://xelix-1741105385.teamtailor.com/jobs", region: london}
+- {name: "Huawei UK", ats: teamtailor, slug: "huaweiuk", careers_url: "https://huaweiuk.teamtailor.com/jobs", region: london}
+- {name: "Tether", ats: recruitee, slug: "tether", careers_url: "https://tether.recruitee.com", region: remote}

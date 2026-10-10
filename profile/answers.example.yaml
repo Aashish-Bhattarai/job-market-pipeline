@@ -1,0 +1,103 @@
+# Example standing form-answer bank (CONTRACTS.md #2). Every value here is
+# synthetic demo data for a fictional "Demo Candidate" -- copy this file to
+# answers.yaml (gitignored) next to this one and replace every value with
+# your own. field_rules.mjs reads this shape; keep the keys, change the values.
+
+contact:
+  name: "Demo Candidate"
+  email: "demo.candidate@example.com"
+  phone: "07700 900123"
+  linkedin: "linkedin.com/in/demo-candidate"
+  github: "github.com/demo-candidate"
+
+# Region-keyed addresses. `default` is used for every job except ones in the
+# `sussex` region (see config.yaml geography / discover/companies.yaml region
+# field); `miles` is the straight-line distance from that address to named
+# office hubs, used to answer "are you within N miles of one of these
+# offices?" questions (apply/field_rules.mjs addressFor/HUB logic).
+addresses:
+  default:
+    street: "8 Station Road"
+    city: "Reading"
+    county: "Berkshire"
+    postcode: "RG1 1AA"
+    country: "United Kingdom"
+    full: "8 Station Road, Reading, Berkshire, RG1 1AA, United Kingdom"
+    miles: { london: 51 }
+  sussex:
+    street: "12 Coastal Lane"
+    city: "Worthing"
+    county: "West Sussex"
+    postcode: "BN11 1AA"
+    country: "United Kingdom"
+    full: "12 Coastal Lane, Worthing, West Sussex, BN11 1AA, United Kingdom"
+    miles: { london: 47, brighton: 6 }
+address_rule: "Sussex-region jobs use the `sussex` address; everything else uses `default`."
+
+based: "United Kingdom"
+nationality: "Kenyan"
+nationality_country: "Kenya"
+ethnicity: "Prefer not to say"
+date_of_birth: "1990-06-15"
+driving_licence: true
+
+right_to_work: true
+sponsorship_now: "no"
+sponsorship_future: "yes"
+visa:
+  status: "Graduate visa"
+  expires: "2029-06"
+  note: "Only volunteered when a field explicitly asks for visa/immigration status."
+
+notice_period: "1 month notice period"
+
+salary:
+  rule: "No stated salary or floor >= £40,000, quote £40,000–£45,000. Floor below £40,000, quote £35,000–£40,000."
+  single_number_rule: "Lower bound only, digits with no separators, for number-typed fields."
+
+protected_characteristics:
+  preference: "Prefer not to say"
+  gender: "Female"
+
+criminal_convictions: false
+background_check: true
+based_in_uk: "yes"
+
+office_attendance:
+  rule: "Office, hybrid, or fully remote all work; up to max_days_per_week days on site."
+  max_days_per_week: 5
+
+relocation:
+  willing: true
+  note: "Happy to relocate for the right role."
+
+coding_hours_per_year: 500
+
+english_level: "Advanced (C1-C2)"
+
+# A stated number of years per skill, used verbatim (never extrapolated) when
+# a form asks directly; "paid_years" answers the professional/paid/production
+# wording specifically, which may be a smaller number than the general one.
+years_experience:
+  sql: 4
+  power_bi: 1
+  python: 4
+  machine_learning: 2
+  software_development: 3
+  paid_years: 1
+  rule: "Stated per skill above the paid/professional wording; derive from facts.yaml employment dates only when neither applies."
+
+pronouns: "He/him/his"
+
+acknowledgements:
+  application_notices: true
+  demographic_consent_when_declined: true
+  decline_interview_recording: true
+  interview_conduct: true
+
+nothing_further: "I have nothing further to add at this stage -- thank you for considering my application."
+security_clearance: "No"
+reasonable_adjustments: false
+military_service: false
+recruiting_deadlines: false
+startup_experience: true

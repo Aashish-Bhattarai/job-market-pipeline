@@ -1,0 +1,29 @@
+# Verified real ATS boards for smoke-testing discover.py / filter.py.
+# One company per ATS type so every source module in
+# pipeline/discover/sources/ gets exercised. Verified 2026-09-26 by
+# querying each public API endpoint directly (see DiscoveryCore report).
+- name: Wayve
+  ats: greenhouse
+  slug: wayve
+  careers_url: https://job-boards.greenhouse.io/wayve
+  region: london
+- name: Faculty
+  ats: ashby
+  slug: faculty
+  careers_url: https://jobs.ashbyhq.com/faculty
+  region: london
+- name: Farfetch
+  ats: lever
+  slug: farfetch
+  careers_url: https://jobs.lever.co/farfetch
+  region: london
+- name: Codurance
+  ats: workable
+  slug: codurance
+  careers_url: https://apply.workable.com/codurance
+  region: london
+- name: Bosch Group
+  ats: smartrecruiters
+  slug: BoschGroup
+  careers_url: https://jobs.smartrecruiters.com/BoschGroup
+  region: remote

@@ -1,0 +1,29 @@
+# Secrets & env overrides -- never commit
+.env
+.env.*
+!.env.example
+
+# Personal runtime data -- never commit (copy the *.example.yaml files instead)
+profile/answers.yaml
+profile/facts.yaml
+profile/base_cv.pdf
+profile/base_cover_letter.json
+profile/base_selection.json
+profile/cover_template.md
+
+# Generated/local-only artifact dirs -- database, blob store, per-job output,
+# work-in-progress attempts. Tracked only via a .gitkeep placeholder.
+data/*
+!data/.gitkeep
+store/
+out/
+work/
+
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# scratch probes and debug screenshots never belong in the repo
+apply/_*.mjs
+apply/*.png
